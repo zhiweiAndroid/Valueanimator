@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fadfaf"
+        android:gravity="center"
+        android:text="点击下面的箭头可以折叠放开View"/>
+
+        <ImageButton
+            android:id="@+id/iBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            />
+        <LinearLayout
+            android:id="@+id/content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#afc7fa"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="CtsCardLocationMgr.INSTANCE.INSTANCE.isFromRedPoint没有制为true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#daaffa"
+                android:gravity="center"
+                android:text="smartIP为空44139"/>
+        </LinearLayout>
+
+
+</LinearLayout>
