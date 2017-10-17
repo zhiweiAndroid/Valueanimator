@@ -5,6 +5,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.app.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +28,12 @@ public class Main2Activity extends Activity {
         setContentView(R.layout.activity_main2);
         iBtn = (ImageView) findViewById(R.id.iBtn);
         mFoldedView = (LinearLayout) findViewById(R.id.content);
+         findViewById(R.id.btn2).setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+               startActivity(new Intent(Main2Activity.this,Main3Activity.class));
+             }
+         });
 
         showIbtn();
 

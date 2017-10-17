@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shundai.valueanimationtest.Main3Activity">
+<Button
+    android:text="测试"
+    android:id="@+id/btn3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_below="@+id/btn3"
+        android:id="@+id/iv_arrow"
+        android:src="@drawable/ic_shouqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:padding="5dp"
+        android:id="@+id/ll_arrow"
+        android:orientation="vertical"
+        android:layout_below="@+id/iv_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:text="记录反馈安抚飒飒大法师打发时光法师嘎斯嘎嘎是个建安费解决地方科技开发的决定减肥的开放接口肯德基反馈就是快点击发送咖啡双方的技术开发建设可点击发送开发技术开发技术开发建设空间放大看是否开始减肥首付款精神可嘉福克斯几点几分"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+    </LinearLayout>
+</RelativeLayout>
